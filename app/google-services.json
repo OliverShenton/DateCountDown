@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390051001367",
+    "project_id": "datecountdown-7df72",
+    "storage_bucket": "datecountdown-7df72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390051001367:android:8cc63f2be9660e5e9f1852",
+        "android_client_info": {
+          "package_name": "com.datecountdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390051001367-54g72u8lu0ps8jsfm2fq2ot9cq2p0e77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2WlA5o7JkzSe5eSlxzzJOe-TjW98GxHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390051001367-54g72u8lu0ps8jsfm2fq2ot9cq2p0e77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

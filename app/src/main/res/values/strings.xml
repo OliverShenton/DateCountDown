@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Time Piece</string>
+    <string name="app_version">Version: 3 (2.1.0)</string>
+
+    //Alert Dialog
+    <string name="hint_title">Title </string>
+    <string name="hint_date">    Date </string>
+    <string name="alert_dialog_add"> Add Date </string>
+    <string name="alert_dialog_cancel"> Cancel </string>
+    <string name="switch_text_off"> Repeat Date - Off </string>
+    <string name="switch_text_on"> Repeat Date - On </string>
+    <string name="yearly_toggle_off"> Year - Off </string>
+    <string name="yearly_toggle_on"> Year - On </string>
+    <string name="monthly_toggle_off"> Month - Off </string>
+    <string name="monthly_toggle_on"> Month - On </string>
+    <string name="week_toggle_off"> Week - Off </string>
+    <string name="week_toggle_on"> Week - On </string>
+    <string name="xdays_toggle_off"> X Days - Off </string>
+    <string name="xdays_toggle_on"> X Days - On </string>
+    <string name="yearmonthinput"> One Time </string>
+    <string name="hint_time">  Time </string>
+    <string name="title_activity_settings"> SettingsActivity </string>
+    <string name="colour_pick"> Pick a Colour </string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="channel_name">Time Piece</string>
+    <string name="channel_description"> ONE WEEK TO GO</string>
+
+    <string name="daterepresent">Meaning of the Date</string>
+    <string-array name="daterepresentation">
+        <item>Birthday</item>
+        <item>Holiday</item>
+        <item>Payment</item>
+        <item>Special Occasion</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

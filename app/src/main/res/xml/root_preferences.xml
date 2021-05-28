@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Appearance"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/orientation_names"
+            android:entryValues="@array/orientation_value"
+            android:key="ORIENTATION"
+            android:title="Screen Orientation"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/size_labels"
+            android:entryValues="@array/size_values"
+            android:key="TEXTSIZE"
+            android:title="Text Size"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/theme_labels"
+            android:entryValues="@array/theme_values"
+            android:title="Theme"
+            app:iconSpaceReserved="false"
+            app:key="THEME" />
+
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory-->
+<!--        android:title="Notification"-->
+<!--        app:iconSpaceReserved="false">-->
+
+
+<!--        <CheckBoxPreference-->
+<!--            android:key="sendnotifications"-->
+<!--            android:summaryOff="Do NOT receive notifications"-->
+<!--            android:summaryOn="Recieve notifications"-->
+<!--            android:title="Send Notifications"-->
+<!--            app:iconSpaceReserved="false" />-->
+
+<!--    </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:title="App Version"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="@string/app_version"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
